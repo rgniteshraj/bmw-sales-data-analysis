@@ -142,25 +142,14 @@ It highlights:
 
 ---
 
-## 📁 Project Structure
-
-bmw-sales-data-analysis/
-│
-├── dashboards/       # Power BI dashboard PDF  
-├── data/             # Cleaned dataset (Excel)  
-├── docs/             # Supporting files  
-├── README.md  
-
----
-
 ## 👨‍💻 Author
 
 **Nitesh Raj R G**  
-Data Analyst | Big Data | Power BI  
+ASPIRING DATA ANALYST
 
-- 🌐 GitHub: https://github.com/your-username  
-- 💼 LinkedIn: https://www.linkedin.com/in/your-linkedin-id  
-- 📧 Email: your-email@example.com  
+- 🌐 GitHub: https://github.com/rgniteshraj 
+- 💼 LinkedIn: https://www.linkedin.com/in/niteshrajrg
+- 📧 Email: rgniteshraj@gmail.com 
 
 If you found this project useful or have feedback, feel free to reach out!
 
