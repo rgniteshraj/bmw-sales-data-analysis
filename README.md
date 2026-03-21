@@ -89,7 +89,7 @@ Additionally, the analysis integrates **economic indicators (GDP growth and fuel
 - **Total Vehicles Sold** = SUM(Units_Sold)  
 - **Total Revenue** = SUM(Revenue_EUR)  
 - **Average Vehicle Price** = DIVIDE([Total Revenue], [Total Vehicles Sold])  
-- **EV Contribution %** = DIVIDE(SUM('cleaned data set'[EV_Sales]), SUM('cleaned data set'[Units_Sold]))  
+- **EV Contribution %** = DIVIDE(SUM(EV_Sales), SUM(Units_Sold))
  
 
 ---
