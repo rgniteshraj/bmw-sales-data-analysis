@@ -127,6 +127,16 @@ An interactive **Power BI dashboard** was developed with:
 
 ---
 
+## 📌 Business Recommendations
+
+- Increase EV production and marketing in high-demand regions like China  
+- Focus sales strategies during peak seasonal months to maximize revenue  
+- Expand EV portfolio as adoption is in early growth stage (~11%)  
+- Monitor economic indicators (GDP trends) to align production planning  
+- Strengthen premium segment positioning to maintain pricing advantage
+
+---
+
 ## 🏁 Conclusion
 
 This project demonstrates how **data analytics and visualization techniques** can provide actionable insights into automotive sales performance.
