@@ -6,28 +6,25 @@
 ---
 
 ## 🧩 Project Overview
+This project analyzes BMW’s global sales performance from 2018 to 2025, focusing on vehicle sales, revenue generation, regional performance, product distribution, and electric vehicle (EV) adoption.
 
-This project analyzes BMW’s global sales performance from **2018 to 2025**, focusing on vehicle sales, revenue generation, regional performance, product distribution, and electric vehicle (EV) adoption.
+The dataset was sourced from Kaggle and processed using Excel and Power Query. A structured **star schema data model** was implemented in Power BI to enable efficient analysis and interactive dashboard development.
 
-The dataset was sourced from **Kaggle** and processed using **Excel and Power Query**. A structured **star schema data model** was implemented in Power BI, enabling efficient analysis and interactive dashboard development.
-
-Additionally, the analysis integrates **economic indicators (GDP growth and fuel price index)** to evaluate external factors influencing automotive sales performance.
+The analysis also incorporates economic indicators such as GDP growth and fuel price index to provide additional context for sales performance.
 
 ---
 
 ## 🎯 Project Objectives
-
-- Analyze **monthly and yearly sales trends** to identify seasonal patterns  
-- Evaluate **regional revenue contribution** across key markets  
-- Assess **model-wise performance** and product distribution  
-- Analyze **EV segment performance and contribution to total sales**  
-- Examine the **impact of economic indicators (GDP growth, fuel price index)**  
-- Enable **data-driven strategic decision-making**  
+- Analyze monthly and yearly sales trends  
+- Evaluate regional revenue contribution across key markets  
+- Assess model-wise performance and product distribution  
+- Analyze EV segment performance and contribution to total sales  
+- Examine the relationship between economic indicators and revenue trends  
+- Support data-driven decision-making  
 
 ---
 
 ## 📁 Data Source
-
 - **Dataset:** BMW Global Sales Dataset (Kaggle)  
 - **Time Period:** 2018–2025  
 - **Processing Tools:** Excel, Power Query  
@@ -36,12 +33,11 @@ Additionally, the analysis integrates **economic indicators (GDP growth and fuel
 ---
 
 ## ❓ Problem Statement
-
 - Which regions generate the highest revenue?  
 - Which BMW models contribute most to total sales?  
-- Do sales follow seasonal patterns?  
+- Do sales show consistent patterns over time?  
 - How competitive is the EV segment?  
-- How do economic conditions influence vehicle sales?  
+- How do economic conditions relate to vehicle sales?  
 - What is the EV contribution to total market share?  
 
 ---
@@ -49,7 +45,7 @@ Additionally, the analysis integrates **economic indicators (GDP growth and fuel
 ## 🧾 Dataset Attributes
 
 | Attribute Name | Data Type | Description |
-|---|---|---|
+|--------------|----------|------------|
 | Year | Integer | Sales year |
 | Month | Integer | Month number |
 | Month Name | Text | Month name |
@@ -79,83 +75,87 @@ Additionally, the analysis integrates **economic indicators (GDP growth and fuel
 
 ### Data Modeling
 - Implemented **Star Schema**  
-- Fact Table: Sales Data  
-- Dimension Tables: Year, Month, Region, Model  
+- **Fact Table:** Sales Data  
+- **Dimension Tables:** Year, Month, Region, Model  
 
 ---
 
 ## 🧮 DAX Measures
-
 - **Total Vehicles Sold** = SUM(Units_Sold)  
 - **Total Revenue** = SUM(Revenue_EUR)  
 - **Average Vehicle Price** = DIVIDE([Total Revenue], [Total Vehicles Sold])  
-- **EV Contribution %** = DIVIDE(SUM(EV_Sales), SUM(Units_Sold))
- 
+- **EV Contribution %** = DIVIDE(SUM(EV_Sales), SUM(Units_Sold))  
 
 ---
 
 ## 📊 Analysis & Visualizations
+- 📈 Line Chart: Monthly & Yearly Sales Trend  
+- 📊 Bar Chart: Model-wise Sales Performance  
+- 📉 Column Chart: Regional Revenue Comparison  
+- 🍩 Donut Chart: EV Market Share Distribution  
+- 📊 Dual-Axis Chart: GDP Growth vs Revenue Trend  
+- 📌 KPI Cards: Key performance indicators  
 
-An interactive **Power BI dashboard** was developed with:
+---
 
-- 📈 **Line Chart:** Monthly & Yearly Sales Trend  
-- 📊 **Bar Chart:** Model-wise Sales Performance  
-- 📉 **Column Chart:** Regional Revenue Comparison  
-- 🍩 **Donut Chart:** EV Market Share Distribution  
-- 📊 **Dual-Axis Chart:** GDP Growth vs Revenue Trend  
-- 📌 **KPI Cards:** Key performance indicators  
+## 📊 Dashboard Preview
+
+The Power BI dashboard provides an interactive overview of BMW’s global sales performance, combining key metrics, trends, and comparisons.
+
+![BMW Global Sales Dashboard](images/dashboard-preview.png)
+
+### 🔍 Dashboard Highlights
+- **KPI Summary:** 25M vehicles sold, €1.57T revenue, €64.08K avg price, 11.1% EV share  
+- **Sales Trend:** Monthly performance across 2018–2025  
+- **Model Analysis:** Balanced sales (~3M units per model)  
+- **Regional Analysis:** China leads revenue (~€400bn)  
+- **EV Insights:** iX leads EV segment (~34% share)  
 
 ---
 
 ## 📈 Key Performance Metrics
-
-- **Total Vehicles Sold:** 24.52 Million  
+- **Total Vehicles Sold:** 25 Million  
 - **Total Revenue:** €1.57 Trillion  
-- **Average Vehicle Price:** €45.04K  
+- **Average Vehicle Price:** €64.08K  
 - **EV Contribution:** 11.1%  
 
 ---
 
 ## 🔍 Key Insights
-
-- China is the **highest revenue-generating region**  
-- Sales exhibit **seasonal variation across months**  
-- BMW maintains **balanced model sales distribution**  
-- EV models show **competitive market share**, with **iX slightly leading**  
-- EV contribution is **11.1%**, indicating **early-stage adoption**  
-- **GDP growth influences revenue trends**, showing economic impact  
+- China is the highest revenue-generating region (~€400bn)  
+- BMW maintains a balanced product portfolio (~3M units per model)  
+- EV models show near-equal distribution, with iX slightly leading (~34%)  
+- Monthly sales show stable patterns with moderate fluctuations  
+- EV contribution (11.1%) indicates early-stage adoption with growth potential  
+- Revenue shows partial alignment with GDP, but no strong direct relationship  
 
 ---
 
 ## 📌 Business Recommendations
-
-- Increase EV production and marketing in high-demand regions like China  
-- Focus sales strategies during peak seasonal months to maximize revenue  
-- Expand EV portfolio as adoption is in early growth stage (~11%)  
-- Monitor economic indicators (GDP trends) to align production planning  
-- Strengthen premium segment positioning to maintain pricing advantage
+- Expand EV production and marketing in high-demand regions like China  
+- Strengthen EV portfolio to capture future growth opportunities  
+- Maintain balanced product strategy across models  
+- Use economic indicators as supporting inputs for planning  
+- Continue premium positioning to sustain pricing advantage  
 
 ---
 
 ## 🏁 Conclusion
-
-This project demonstrates how **data analytics and visualization techniques** can provide actionable insights into automotive sales performance.
+This project demonstrates how data analytics and visualization can generate actionable insights into automotive sales performance.
 
 ### Final Takeaways
-
-- Revenue is **regionally concentrated**, with China leading  
-- Sales follow **consistent seasonal demand patterns**  
-- Product portfolio is **well-balanced across models**  
-- EV adoption is **growing but still in early stages**  
-- **Economic indicators significantly impact sales performance**  
+- China is the dominant revenue market  
+- Sales patterns are stable with moderate variation  
+- Product portfolio is evenly distributed  
+- EV adoption is growing but still in early stages  
+- Economic indicators provide context but are not sole drivers of sales  
 
 ---
 
 ## 👨‍💻 Author
-
 **Nitesh Raj R G**  
 Aspiring Data Analyst  
 
-- 🌐 GitHub: https://github.com/rgniteshraj  
-- 💼 LinkedIn: https://www.linkedin.com/in/niteshrajrg  
-- 📧 Email: rgniteshraj@gmail.com  
+🌐 GitHub: https://github.com/rgniteshraj  
+💼 LinkedIn: https://www.linkedin.com/in/niteshrajrg  
+📧 Email: rgniteshraj@gmail.com  
