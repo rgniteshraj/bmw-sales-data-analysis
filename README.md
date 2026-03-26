@@ -101,7 +101,7 @@ The analysis also incorporates economic indicators such as GDP growth and fuel p
 
 The Power BI dashboard provides an interactive overview of BMW’s global sales performance, combining key metrics, trends, and comparisons.
 
-![BMW Global Sales Dashboard](images/dashboard.png)
+![BMW Sales Dashboard](images/dashboard.png)
 
 ### 🔍 Dashboard Highlights
 - **KPI Summary:** 25M vehicles sold, €1.57T revenue, €64.08K avg price, 11.1% EV share  
