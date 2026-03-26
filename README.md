@@ -89,12 +89,11 @@ The analysis also incorporates economic indicators such as GDP growth and fuel p
 ---
 
 ## 📊 Analysis & Visualizations
-- 📈 Line Chart: Monthly & Yearly Sales Trend  
-- 📊 Bar Chart: Model-wise Sales Performance  
-- 📉 Column Chart: Regional Revenue Comparison  
-- 🍩 Donut Chart: EV Market Share Distribution  
-- 📊 Dual-Axis Chart: GDP Growth vs Revenue Trend  
-- 📌 KPI Cards: Key performance indicators  
+- 📈 **Line Chart:** Monthly Sales Trend with dynamic year filtering to analyze patterns over time  
+- 📊 **Bar Chart:** Top-performing BMW models by sales, sorted with percentage contribution  
+- 📊 **Horizontal Bar Chart:** Regional revenue comparison highlighting China as the leading market  
+- 🍩 **Donut Chart:** EV market share distribution across iX, i4, and MINI models  
+- 📌 **KPI Cards:** Key metrics including Total Vehicles Sold, Total Revenue, Average Vehicle Price, and EV Contribution (%) with performance indicators    
 
 ---
 
